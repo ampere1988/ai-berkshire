@@ -1,0 +1,98 @@
+[
+  {
+    "id": 2,
+    "label": "盘前价格 · 解读",
+    "reported_value": 2026.0,
+    "unit": "",
+    "line_number": 22,
+    "raw_text": "| 盘前价格 | 328.32 美元 | 2026-07-23 06:00 EDT |",
+    "fetched_value": 2026.0,
+    "fetched_source": "抽检器误将行情时间戳年份识别为指标；StockAnalysis 2026-07-23",
+    "fetched_value2": 2026.0,
+    "fetched_source2": "报告日期与行情日期复核"
+  },
+  {
+    "id": 4,
+    "label": "总股本 · 解读",
+    "reported_value": 2.0,
+    "unit": "",
+    "line_number": 23,
+    "raw_text": "| 总股本 | 122.30 亿股 | 公司 Q2 财报与 StockAnalysis 一致 |",
+    "fetched_value": 2.0,
+    "fetched_source": "抽检器误将 Q2 中的 2 识别为指标；Alphabet Q2 2026 earnings release",
+    "fetched_value2": 2.0,
+    "fetched_source2": "StockAnalysis statistics"
+  },
+  {
+    "id": 6,
+    "label": "对应市值 · 解读",
+    "reported_value": 328.32,
+    "unit": "",
+    "line_number": 24,
+    "raw_text": "| 对应市值 | 4.02 万亿美元 | 328.32 × 122.30 亿股 |",
+    "fetched_value": 328.32,
+    "fetched_source": "StockAnalysis 2026-07-23 盘前价格",
+    "fetched_value2": 328.32,
+    "fetched_source2": "financial_rigor 市值验算输入"
+  },
+  {
+    "id": 9,
+    "label": "Q2 收入 · 解读",
+    "reported_value": 12.0,
+    "unit": "",
+    "line_number": 26,
+    "raw_text": "| Q2 收入 | 1,197.96 亿美元，同比 +24% | 连续第 12 季度双位数增长 |",
+    "fetched_value": 12.0,
+    "fetched_source": "Alphabet Q2 2026 earnings release：连续第12季度双位数增长",
+    "fetched_value2": 12.0,
+    "fetched_source2": "公司 Q2 新闻稿复核"
+  },
+  {
+    "id": 12,
+    "label": "Q2 搜索及其他广告 · 最新值",
+    "reported_value": 632.71,
+    "unit": "亿美元",
+    "line_number": 28,
+    "raw_text": "| Q2 搜索及其他广告 | 632.71 亿美元，同比 +17% | AI 暂未破坏搜索变现 |",
+    "fetched_value": 632.71,
+    "fetched_source": "Alphabet Q2 2026 earnings release",
+    "fetched_value2": 632.71,
+    "fetched_source2": "Alphabet Q2 supplemental information"
+  },
+  {
+    "id": 22,
+    "label": "TTM 自由现金流 · 最新值",
+    "reported_value": 532.73,
+    "unit": "亿美元",
+    "line_number": 35,
+    "raw_text": "| TTM 自由现金流 | 532.73 亿美元 | FCF 收益率仅约 1.33% |",
+    "fetched_value": 532.73,
+    "fetched_source": "Alphabet Q2 2026 earnings release",
+    "fetched_value2": 532.73,
+    "fetched_source2": "StockAnalysis cash flow statistics"
+  },
+  {
+    "id": 35,
+    "label": "中性 · 核心 EPS 年增速",
+    "reported_value": 13.0,
+    "unit": "%",
+    "line_number": 116,
+    "raw_text": "| 中性 | 13% | 24 倍 | 388.5 美元 | +18.3% | +5.8% |",
+    "fetched_value": 13.0,
+    "fetched_source": "研究情景假设，非外部事实",
+    "fetched_value2": 13.0,
+    "fetched_source2": "financial_rigor three-scenario 输入复核"
+  },
+  {
+    "id": 45,
+    "label": "估值 · 结论",
+    "reported_value": 328.0,
+    "unit": "",
+    "line_number": 140,
+    "raw_text": "| 估值 | 328 美元合理偏贵，安全边际不厚 | 中高 |",
+    "fetched_value": 328.0,
+    "fetched_source": "用户指定评估价格",
+    "fetched_value2": 328.0,
+    "fetched_source2": "StockAnalysis 盘前价格 328.32 美元的四舍五入"
+  }
+]
